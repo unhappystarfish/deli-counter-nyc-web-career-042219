@@ -12,7 +12,7 @@ def line(katz_deli)
     end
   end
   real_line = formatted_line.join(" ")
-  return "The line is currently: #{real_line}"
+  puts "The line is currently: #{real_line}"
 end
 
 def take_a_number(katz_deli, name)
