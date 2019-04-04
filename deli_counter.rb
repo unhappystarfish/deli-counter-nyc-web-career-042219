@@ -10,8 +10,8 @@ def line(katz_deli)
       formatted_line.push("#{counter}. #{i}")
       counter += 1
     end
-    formatted_line.join(" ")
-    return "The line is currently: #{formatted_line}"
+    real_line = formatted_line.join(" ")
+    return "The line is currently: #{real_line}"
   end
 end
 
