@@ -10,9 +10,9 @@ def line(katz_deli)
       formatted_line.push("#{counter}. #{i}")
       counter += 1
     end
+    real_line = formatted_line.join(" ")
+    puts "The line is currently: #{real_line}"
   end
-  real_line = formatted_line.join(" ")
-  puts "The line is currently: #{real_line}"
 end
 
 def take_a_number(katz_deli, name)
